@@ -1,12 +1,12 @@
 # Tutorial 1.1
 # CircuitPython demo - NeoPixel
- 
+
 import time
- 
+
 import board
 import neopixel
- 
-pixpin = board.D0
+
+pixpin = board.A3
 numpix = 64
 
 strip = neopixel.NeoPixel(pixpin, numpix, brightness=0.1, auto_write=False)
@@ -20,5 +20,5 @@ while True:
     strip[1] = (255,0,0)
     strip[2] = (255,0,0)
     strip[3] = (255,0,0)
-    
+
     strip.write()
