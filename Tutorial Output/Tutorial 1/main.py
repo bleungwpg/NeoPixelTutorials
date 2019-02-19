@@ -7,7 +7,7 @@ import board
 import neopixel
 
 pixpin = board.A3
-numpix = 64
+numpix = 128
 
 strip = neopixel.NeoPixel(pixpin, numpix, brightness=0.1, auto_write=False)
 
