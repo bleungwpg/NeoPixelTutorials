@@ -106,4 +106,8 @@ while True:
 
     elif globalvariables.messageID == 10:
         # shortcut for message 5
-        showMessage(1,0,globalvariables.message10)
+        showMessage(11,0,globalvariables.message10)
+
+    elif globalvariables.messageID == 11:
+        # shortcut for message 5
+        showMessage(1,0,globalvariables.message11)
